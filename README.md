@@ -23,9 +23,22 @@ A responsive React + Tailwind CSS project featuring a profile page, sidebar navi
 ---
 
 ## 📂 Project Structure
-src/ ├── About.tsx        # About section ├── Card.tsx         # Reusable card component ├── Contact.tsx      # Contact section with social links ├── Profile.tsx      # Profile page with banner & avatar upload ├── Sidebar.tsx      # Sidebar navigation ├── Tabs.tsx         # Tabbed content navigation
-
-
+```text
+src/
+├── components/
+│   ├── About.tsx        → About section with Bejimaru’s story
+│   ├── Card.tsx         → Reusable card (image, title, description, link)
+│   ├── Contact.tsx      → Contact section with social media links
+│   ├── Profile.tsx      → Profile page (banner & avatar upload)
+│   ├── Sidebar.tsx      → Sidebar navigation with icons
+│   └── Tabs.tsx         → Tabbed content (Home, About, Projects, Courses, Contact)
+│
+├── App.tsx              → Main app entry point
+└── index.tsx            → React DOM render entry
+```
 ---
-<img width="600"  alt="image" src="https://github.com/user-attachments/assets/17443685-5d2c-492d-b64e-380ea1a18357" />
+
+## 📸 Project Preview 
+<img height="200"  alt="image" src="https://github.com/user-attachments/assets/9d0354f9-5e65-4ab8-b1d4-bcedf2abf1a7" />
+<img height="200"  alt="image" src="https://github.com/user-attachments/assets/17443685-5d2c-492d-b64e-380ea1a18357" />
 
